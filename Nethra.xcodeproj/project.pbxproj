@@ -15,6 +15,7 @@
 		53A1C4292074ED70008793BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A1C4282074ED70008793BB /* main.m */; };
 		53A1C4332074ED70008793BB /* NethraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A1C4322074ED70008793BB /* NethraTests.m */; };
 		53A1C43E2074ED70008793BB /* NethraUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A1C43D2074ED70008793BB /* NethraUITests.m */; };
+		890287D62084F9CC008A0C6D /* MyClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 890287D52084F9CC008A0C6D /* MyClassViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		53A1C4392074ED70008793BB /* NethraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NethraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53A1C43D2074ED70008793BB /* NethraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NethraUITests.m; sourceTree = "<group>"; };
 		53A1C43F2074ED70008793BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890287D42084F9CC008A0C6D /* MyClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClassViewController.h; sourceTree = "<group>"; };
+		890287D52084F9CC008A0C6D /* MyClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClassViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				53A1C41A2074ED70008793BB /* AppDelegate.m */,
 				53A1C41C2074ED70008793BB /* ViewController.h */,
 				53A1C41D2074ED70008793BB /* ViewController.m */,
+				890287D42084F9CC008A0C6D /* MyClassViewController.h */,
+				890287D52084F9CC008A0C6D /* MyClassViewController.m */,
 				53A1C41F2074ED70008793BB /* Main.storyboard */,
 				53A1C4222074ED70008793BB /* Assets.xcassets */,
 				53A1C4242074ED70008793BB /* LaunchScreen.storyboard */,
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53A1C41E2074ED70008793BB /* ViewController.m in Sources */,
+				890287D62084F9CC008A0C6D /* MyClassViewController.m in Sources */,
 				53A1C4292074ED70008793BB /* main.m in Sources */,
 				53A1C41B2074ED70008793BB /* AppDelegate.m in Sources */,
 			);
